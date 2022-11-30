@@ -1,6 +1,7 @@
 # Ignore actual imagenette dataset and metrics
 Dataset/
 dataset.tar
+encoded_data.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
