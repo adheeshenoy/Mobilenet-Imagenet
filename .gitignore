@@ -2,6 +2,7 @@
 Dataset/
 dataset.tar
 encoded_data.csv
+Dataset_og/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
