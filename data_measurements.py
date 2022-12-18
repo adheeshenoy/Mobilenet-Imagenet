@@ -2,12 +2,9 @@ import pandas as pd
 from math import log2, log
 import tqdm
 
+from tensorflow import keras
+
 def compute_mec(filename = 'encoded_data.csv', classes = 1000):
-    '''
-    32 -> 41024
-    64 -> 82
-    
-    '''
     df = pd.read_csv(filename, header = None)
     latent_dimension = df.shape[1] - 1
     
